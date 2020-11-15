@@ -28,7 +28,17 @@ function power(a, b) {
 
 }
 
-function factorial() {
+function factorial(a) {
+	let result = a;
+	let factorial = a - 1;
+	while (factorial > 0) {
+		result *= factorial;
+		factorial--;
+	}
+	if (result === 0) {
+		result = 1;
+	}
+	return result;
 	
 }
 
