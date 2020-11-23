@@ -8,7 +8,7 @@ const fibonacci = function(a) {
     for (i = 2; i <= a; i++) {
         fib[i] = fib[i - 2] + fib[i - 1];
     }
-    return fib[a] === undefined ? "OPPS" : fib[a];  
+    return fib[a] === undefined ? "OOPS" : fib[a];  
     
 }
 
